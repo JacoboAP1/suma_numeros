@@ -8,5 +8,6 @@ public class Main {
         manager.addNumero(1);
         manager.addNumero(2);
         manager.addNumero(3);
+        System.out.println("La suma es: " + manager.getSuma());
     }
 }

@@ -10,6 +10,14 @@ public class Manager {
     }
 
     public void addNumero(int numero) {
-        this.numeros.add(numeros);
+        this.numeros.add(numero);
+    }
+
+    public int getSuma(){
+        int suma = 0;
+        for (Integer numero : this.numeros) {
+            suma += numero;
+        }
+        return suma;
     }
 }
